@@ -1,0 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@layer components {
+    .primary-button {
+        @apply bg-sky-900/90 text-white hover:scale-105 duration-200 rounded-md py-1 px-4;
+    }
+}
